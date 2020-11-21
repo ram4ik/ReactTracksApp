@@ -1,0 +1,9 @@
+query GetTracks {
+  tracks {
+    id
+    title
+    description
+    url
+    createdAt
+  }
+}

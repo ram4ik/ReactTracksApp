@@ -1,0 +1,13 @@
+mutation SetTrack($title: String!, $description: String!, $url: String!) {
+  createTrack(
+    title: $title
+    description: $description
+    url: $url
+  ) {
+    track {
+      title
+      description
+      url
+    }
+  }
+}
